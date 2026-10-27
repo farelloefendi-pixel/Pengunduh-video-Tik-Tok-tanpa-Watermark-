@@ -1,0 +1,9 @@
+{
+  "versi": 1,
+  "layanan": [
+    {"nama": "tikwm", "format": "tikwm", "metode": "GET", "url": "https://www.tikwm.com/api/?hd=1&url={url}", "dasar": "https://www.tikwm.com"},
+    {"nama": "tiklydown", "format": "tiklydown", "metode": "GET", "url": "https://api.tiklydown.eu.org/api/download/v3?url={url}"},
+    {"nama": "lovetik", "format": "lovetik", "metode": "POST", "url": "https://lovetik.com/api/ajax/search", "badan": "query={url}"},
+    {"nama": "douyin", "format": "douyin", "metode": "GET", "url": "https://api.douyin.wtf/api/hybrid/video_data?minimal=true&url={url}"}
+  ]
+}

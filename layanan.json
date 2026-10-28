@@ -1,0 +1,10 @@
+{
+  "versi": 1,
+  "ekstensi": {"versi": "0.7", "catatan": "Menu laporkan masalah, peringatan tautan yang sudah pernah diunduh, aksi tambahan di riwayat, dan pengumuman progres unduhan massal.", "unduh": "https://raw.githubusercontent.com/farelloefendi-pixel/Pengunduh-video-Tik-Tok-tanpa-Watermark-/main/PENGUNDUH_TIKTOK_TANPA_WATERMARK_INDONESIA.ppk"},
+  "layanan": [
+    {"nama": "tikwm", "format": "tikwm", "metode": "GET", "url": "https://www.tikwm.com/api/?hd=1&url={url}", "dasar": "https://www.tikwm.com"},
+    {"nama": "tiklydown", "format": "tiklydown", "metode": "GET", "url": "https://api.tiklydown.eu.org/api/download/v3?url={url}"},
+    {"nama": "lovetik", "format": "lovetik", "metode": "POST", "url": "https://lovetik.com/api/ajax/search", "badan": "query={url}"},
+    {"nama": "douyin", "format": "douyin", "metode": "GET", "url": "https://api.douyin.wtf/api/hybrid/video_data?minimal=true&url={url}"}
+  ]
+}

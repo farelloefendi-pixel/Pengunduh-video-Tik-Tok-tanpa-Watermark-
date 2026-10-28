@@ -1,6 +1,7 @@
 {
   "versi": 1,
-  "ekstensi": {"versi": "0.1", "catatan": "Menu laporkan masalah, peringatan tautan yang sudah pernah diunduh, aksi tambahan di riwayat, dan pengumuman progres unduhan massal.", "unduh": "https://raw.githubusercontent.com/farelloefendi-pixel/Pengunduh-video-Tik-Tok-tanpa-Watermark-/main/PENGUNDUH_TIKTOK_TANPA_WATERMARK_INDONESIA.ppk"},
+  "ekstensi": {"versi": "0.1", "catatan": "Rilis pertama Multi Platform Downloader: unduh dari TikTok, Instagram, dan YouTube, dengan pilihan folder unduhan dan pengaturan kualitas.", "unduh": "https://raw.githubusercontent.com/farelloefendi-pixel/Pengunduh-video-Tik-Tok-tanpa-Watermark-/main/MULTI_PLATFORM_DOWNLOADER.ppk"},
+  "youtube": {"alamat": "https://ytb.rip/api/convert", "ts": "1771534846328", "rahasia": "c7d6fe8b7a87fd4129f36353253e4696b7ca4768d84a5cf5a3432775758ad5d2"},
   "layanan": [
     {"nama": "tikwm", "format": "tikwm", "metode": "GET", "url": "https://www.tikwm.com/api/?hd=1&url={url}", "dasar": "https://www.tikwm.com"},
     {"nama": "tiklydown", "format": "tiklydown", "metode": "GET", "url": "https://api.tiklydown.eu.org/api/download/v3?url={url}"},

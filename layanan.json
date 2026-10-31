@@ -1,0 +1,19 @@
+{
+  "versi": 1,
+  "ekstensi": {"versi": "0.4", "catatan": "YouTube mengirim data pengunjung, ada klien cadangan web_embedded dan tv, dan pesan galat lebih ringkas.", "unduh": "https://raw.githubusercontent.com/farelloefendi-pixel/Pengunduh-video-Tik-Tok-tanpa-Watermark-/main/Multi%20Platform%20Downloader.ppk"},
+  "youtube": {
+    "klien": [
+      {"nama": "android_vr", "id": "28", "klien": "ANDROID_VR", "versi": "1.65.10", "embed": "", "ua": "com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip", "tambahan": {"deviceMake": "Oculus", "deviceModel": "Quest 3", "osName": "Android", "osVersion": "12L", "androidSdkVersion": 32}},
+      {"nama": "web_embedded", "id": "56", "klien": "WEB_EMBEDDED_PLAYER", "versi": "1.20250310.01.00", "embed": "https://www.google.com/", "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36", "tambahan": {}},
+      {"nama": "tv", "id": "7", "klien": "TVHTML5", "versi": "7.20250312.16.00", "embed": "", "ua": "Mozilla/5.0 (ChromiumStylePlatform) Cobalt/Version", "tambahan": {}},
+      {"nama": "android", "id": "3", "klien": "ANDROID", "versi": "20.10.38", "embed": "", "ua": "com.google.android.youtube/20.10.38 (Linux; U; Android 11) gzip", "tambahan": {"osName": "Android", "osVersion": "11", "androidSdkVersion": 30}},
+      {"nama": "ios", "id": "5", "klien": "IOS", "versi": "20.10.4", "embed": "", "ua": "com.google.ios.youtube/20.10.4 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)", "tambahan": {"deviceMake": "Apple", "deviceModel": "iPhone16,2", "osName": "iOS", "osVersion": "18.3.2.22D82"}}
+    ]
+  },
+  "layanan": [
+    {"nama": "tikwm", "format": "tikwm", "metode": "GET", "url": "https://www.tikwm.com/api/?hd=1&url={url}", "dasar": "https://www.tikwm.com"},
+    {"nama": "tiklydown", "format": "tiklydown", "metode": "GET", "url": "https://api.tiklydown.eu.org/api/download/v3?url={url}"},
+    {"nama": "lovetik", "format": "lovetik", "metode": "POST", "url": "https://lovetik.com/api/ajax/search", "badan": "query={url}"},
+    {"nama": "douyin", "format": "douyin", "metode": "GET", "url": "https://api.douyin.wtf/api/hybrid/video_data?minimal=true&url={url}"}
+  ]
+}
